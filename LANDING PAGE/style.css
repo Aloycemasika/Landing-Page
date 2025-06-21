@@ -1,0 +1,188 @@
+
+body{
+ 
+    margin: 0;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+
+
+  
+
+
+    
+   
+    gap: 32px;
+
+}
+
+
+.body{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 32px;
+ 
+}
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    color: blue;
+    background-color: antiquewhite;
+    font-size: 32px;
+}
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+
+    font-size: 18px;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+  border: 3px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+  height: auto;
+
+}
+
+.lastcard2 {
+   
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    
+    padding: 0;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+.one{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+button{
+    padding: 6px 8px;
+    border-radius: 8px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+}
+
+
+.quote-section{
+    background-color: #f8f799;
+    padding: 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.quote-text{
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.quote-author{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px ;
+    margin-left: 1100px;
+
+
+
+}
+
+
+.info{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    align-self: center;
+    max-width: 100px;
+    margin-top: 8px;
+}
+
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+.section1-h1{
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    min-width: 280px;
+
+  
+
+}
+.info1{
+
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 2/1;
+
+
+  
+}
+
+.sign{
+
+    align-self: flex-start;
+    margin-top: 8px;
+}
